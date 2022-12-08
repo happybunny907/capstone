@@ -1,8 +1,16 @@
 body {
 	/* font-family: "Dekko", cursive; */
-	background-image: linear-gradient(to bottom right,#eac48f, #F5E97B, #eac48f, #F5E97B, #eac48f);
+	background-image: linear-gradient(to bottom right,#FBF3E7, #D8EDD3, #DBF1F4, #E4DAF1, #F0D1DC,#FBF3E7);
 }
 
+footer {
+	background-color: #FBF3E7;
+	box-shadow: 0px -2px 4px 0 rgba(0,0,0,.2);
+	margin-top: 3rem;
+}
+.headline {
+	margin-top: 5rem;
+}
 nav {
 	position: fixed;
 	box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
@@ -13,11 +21,59 @@ nav {
 	box-shadow: 0 5px 10px 0 rgba(0,0,0,.2);
 	
 }
-.card-body:hover {
-	background-color: #f3b6e9;
-	opacity: 0.8;
+.overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: #008CBA;
+  }
+.card-body:hover .overlay{
+	opacity: 1;
+}
+.border {
+	width: 50%;
+    height: 0.3rem;
+    background-color: black;
+}
+.img1 {
+	box-shadow: 0 5px 10px 0 rgba(0,0,0,.2);
+	width: 40%;
+	margin-left: 10%;
+}
+.img1:hover {
+	color: #f3b6e9;
+	opacity: 0.5;
+}
+.container {
+	position: relative;
+	width: 70%;
+	max-width: 1080px;
+	margin: 0 auto;
+	padding: 0 25px;
+	border: solid #222;
+	border-width: 1px;
+	box-sizing: border-box; }
+
+.title {
+		color: black;
+		font-size: 3rem;
+		text-align: center;
+		padding-top: 2rem;
+		font-family: 'Kanit', sans-serif;
 }
 
+.social {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+	padding-bottom: 5rem;
+}
 h1 {
     color: black;
 	font-family: 'Kanit', sans-serif;
@@ -31,15 +87,7 @@ h3{
     color: #f7e9cb;
 }
 h4 {
-	/* font-family: "Indie Flower", cursive; */
-	/* opacity: 0.8; */
-    margin-left: 3rem;
-    padding-bottom: 2rem;
-    color: black;
-}
-
-h4 {
-	padding-top: 2rem;
+	text-align: center;
 }
 
 .btn:focus,
@@ -120,8 +168,6 @@ img {
     width: 100%; height: auto;
 }
 
-CSSResult Skip Results Iframe
-EDIT ON
 /* popover */
 details[data-popover] {
   display: inline;
