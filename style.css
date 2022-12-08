@@ -1,15 +1,31 @@
 body {
 	/* font-family: "Dekko", cursive; */
-	background-color: black;
+	background-image: linear-gradient(to bottom right,#eac48f, #F5E97B, #eac48f, #F5E97B, #eac48f);
+}
+
+nav {
+	position: fixed;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+	font-family: 'Kanit', sans-serif;
+  }
+
+.card-body {
+	box-shadow: 0 5px 10px 0 rgba(0,0,0,.2);
+	
+}
+.card-body:hover {
+	background-color: #f3b6e9;
+	opacity: 0.8;
 }
 
 h1 {
-    color: #f7e9cb;
+    color: black;
+	font-family: 'Kanit', sans-serif;
 }
 h2{
     color: black;
-    padding-top: 3rem;
-    margin-left: 3rem;
+	font-size: 1rem;
+	font-family: 'Kanit', sans-serif;
 }
 h3{
     color: #f7e9cb;
@@ -104,3 +120,30 @@ img {
     width: 100%; height: auto;
 }
 
+CSSResult Skip Results Iframe
+EDIT ON
+/* popover */
+details[data-popover] {
+  display: inline;
+  position: relative;
+}
+details[data-popover] > summary:focus {
+  outline: none;
+}
+details[data-popover] > summary::-webkit-details-marker {
+  display: none;
+}
+details[data-popover] > summary {
+  list-style: none;
+  text-decoration: underline dotted teal;
+}
+details[data-popover] > summary + * {
+  position: absolute;
+  display: block;
+  z-index: 1;
+  width: 350%;
+  border: solid 1px teal;
+  border-radius: 5%;
+  padding: 10px;
+  background: white;
+}
