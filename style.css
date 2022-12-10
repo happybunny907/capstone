@@ -4,13 +4,22 @@ body {
 }
 
 footer {
-	background-color: #FBF3E7;
+	background-color: #FFFFFF;;
 	box-shadow: 0px -2px 4px 0 rgba(0,0,0,.2);
 	margin-top: 3rem;
 }
 .headline {
 	margin-top: 5rem;
 }
+.figma-frame-wrapper {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+	width: 60%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
 nav {
 	position: fixed;
 	box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
@@ -31,40 +40,22 @@ nav {
 	width: 100%;
 	opacity: 0;
 	transition: .5s ease;
-	background-color: #FBF3E7;
+	/* background-color: #222; */
   }
 
 .overlay-text {
+	margin-top: 40%;
 	text-align: center;
-	
+	font-size: 2rem;
 }
 .card-body:hover .overlay{
-	opacity: 0.5;
+	opacity: 0.9;
 }
 .border {
 	width: 50%;
     height: 0.3rem;
     background-color: black;
 }
-.img1 {
-	box-shadow: 0 5px 10px 0 rgba(0,0,0,.2);
-	width: 40%;
-	margin-left: 10%;
-}
-.img1:hover {
-	color: #f3b6e9;
-	opacity: 0.5;
-}
-.container {
-	position: relative;
-	width: 70%;
-	max-width: 1080px;
-	margin: 0 auto;
-	padding: 0 25px;
-	border: solid #222;
-	border-width: 1px;
-	box-sizing: border-box; }
-
 .title {
 		color: black;
 		font-size: 3rem;
@@ -89,10 +80,14 @@ h2{
 	font-family: 'Kanit', sans-serif;
 }
 h3{
-    color: #f7e9cb;
+    color: black;
+	font-size: 1.2rem;
+	font-family: 'Kanit', sans-serif;
 }
 h4 {
 	text-align: center;
+	font-size: 1rem;
+	font-family: 'Kanit', sans-serif;
 }
 
 .btn:focus,
@@ -122,7 +117,7 @@ h4 {
 
 .paper-link {
 	text-decoration: none;
-	color: #2e6d79;
+	color: black;
 }
 
 .app-link {
@@ -174,7 +169,7 @@ img {
 }
 
 /* popover */
-details[data-popover] {
+/* details[data-popover] {
   display: inline;
   position: relative;
 }
@@ -197,4 +192,4 @@ details[data-popover] > summary + * {
   border-radius: 5%;
   padding: 10px;
   background: white;
-}
+} */
