@@ -22,165 +22,174 @@
 
 <body>
     <!-- Navbar -->
-    <nav class="navbar sticky-top navbar-expand-sm" style="background-color: #f7f4fb">
+    <nav class="navbar navbar-expand-sm" style="background-color: white">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#" style="color: black;">Home</a>
-            <button class="navbar-toggler" data-toggle="collapse" aria-expanded="true">
-                <span class="line"></span>
-                <span class="line"></span>
-                <span class="line" style="margin-bottom: 0;"></span>
-            </button>
+            <a class="navbar-brand" href="#" style="color: black; margin-left: 2rem;">My Diary</a>
             <div class="collapse navbar-collapse justify-content-end">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a class="nav-link" style="color: black; margin-top: 0.5mm;"
-                            href="#UIUX">UIUX</a></li>
-                    <li class="nav-item"><a class="nav-link" style="color: black; margin-top: 0.5mm;"
-                            href="#About">About Me</a></li>
-                </ul>
+                <a class="nav-link" style="color: black; margin-top: 0.5mm; margin-right: 2rem; font-size: 1.2rem;"
+                    href="./Post.html">Post</a>
             </div>
         </div>
     </nav>
-    <!-- introduction -->
-    <div class="d-flex justify-content-center" style="margin-top:3rem; margin-bottom: 5rem;">
-        <img alt="my memoji" src="./img/my-memoji.png"
-            style="margin-bottom: 2rem;width: 35%; height: 35%; margin-left: 5%;">
-        <div class="d-flex flex-column justify-content-center align-items-left"
-            style="margin-left:5%;margin-right:5%;width: 50%;">
-            <h2 style="font-size: 1.8rem;">Hi! I am a student majoring Applied Math & Computer Science at Brown
-                University!
-                <br>
-            </h2>
-            <br> <br>
-            <h2>
-                Below, I presented a few fun UIUX projects that I worked on during 2022 Fall when I enrolled in Prof.
-                Huang's class.
-                <br> <br>
-                I had no prior experience in website design or development before taking this class,
-                but now I am comfortable with coding .html, .css, and .js.
-                <br> <br>
-                Through this portfolio website, I am hoping to present to you my progress and growth in the class.
-            </h2>
-        </div>
-
-    </div>
-
-    <!-- UIUX Section header -->
-    <div id="UIUX" class="d-flex flex-column justify-content-center align-items-center"
+    <!-- Border -->
+    <div class="d-flex flex-column justify-content-center align-items-center"
         style="margin-bottom: 5rem; border-color: black; border-radius: 1rem;">
-        <p class="title">Project Gallery</p>
-        <div class="border"></div>
+        <div class="border" style=" height: 0.2rem;"></div>
     </div>
 
-    <!-- BostonCentral Redesign -->
+
+    <!-- 1 to 3 cards -->
     <div class="d-flex justify-content-center align-items-center" style="margin-bottom: 5rem;">
-        <div class="card align-items-center justify-content-center" style="margin-left: 10%; width: 50%;">
-            <div class="card-body" style="background-color: #FFFFFF;">
-                <a href="./BostonCentral.html" style="color: #107987;">
-                    <img src="./img/responsive-redesign.png" class="card-img-top" , alt="responsive design">
-                    <div class="overlay" style="background-color: #DBF1F4">
-                        <div class="overlay-text">I redesigned the BostonCentral website using .html and .css. The new
-                            interface is
-                            less text-heavy and more responsive.</div>
+
+        <div class="card mb-3"
+            style="margin-left: 10%; margin-right: 2.5%; width: 25%; height: auto; border-color: black; border-radius: 0.15rem;">
+            <div class="row g-0">
+                <div class="col-sm-8">
+                    <div class="card-body" style="background-color: #FFFFFF;">
+                        <a href="./HardFork.html" style="color: #8952d7;">
+                            <img src="./img/1HardFork.jpg" class="img-fluid rounded-start">
+                            <div class="overlay" style="background-color: #6c07f1">
+                                <div class="overlay-text">My team and I designed a customer portal prototype for a
+                                    prescription delivery platform, NimbleRx.</div>
+                            </div>
+                        </a>
                     </div>
-                </a>
+                </div>
+                <div class="col-sm-4" style="margin-left: -1.5rem; margin-top: 1.5rem;">
+                    <h4>The New York Times</h4>
+                    <h4>Society & Culture</h4>
+                    <h4>4.5/5</h4>
+                    <br> </br>
+                    <h4><small class="text-muted"> Added on 04/10/2023</small></h4>
+                </div>
             </div>
         </div>
-        <div class="d-flex flex-column justify-content-center align-items-left"
-            style="margin-left:5%;width: 50%; margin-right: 10%;">
-            <h1>BostonCentral Redesign</h1>
-            <h2 style="margin-bottom: -0.5rem;"> &#11088 &nbsp What did I learn &nbsp &#11088 </h2>
-            <h2>
-                <br>
-                I had no prior knowledge of .html and .css prior to this assignment.
-                Through this project, I learned the basic of .html and .css. In particular,
-                I got to know how to use bootstrap and grid to better layout the website.
-            </h2>
-        </div>
-    </div>
 
-    <!-- NimbleRx -->
-    <div class="d-flex justify-content-center align-items-center" style="margin-bottom: 5rem;">
-        <div class="card align-items-center justify-content-center" style="margin-left: 10%; width: 50%;">
-            <div class="card-body" style="background-color: #FFFFFF;">
-                <a href="./NimbleRx.html" style="color: #8952d7;">
-                    <img src="./img/nimbleRx.png" class="card-img-top" , alt="responsive design">
-                    <div class="overlay" style="background-color: #E4DAF1">
-                        <div class="overlay-text">My team and I designed a customer portal prototype for a prescription delivery platform, NimbleRx.</div>
+        <div class="card mb-3"
+            style="margin-left: 0%; margin-right: 2.5%;width: 25%; height: auto; border-color: black; border-radius: 0.15rem;">
+            <div class="row g-0">
+                <div class="col-sm-8">
+                    <div class="card-body" style="background-color: #FFFFFF;">
+                        <a href="./NimbleRx.html" style="color: #8952d7;">
+                            <img src="./img/2PlanetMoney.jpg" class="img-fluid rounded-start">
+                            <div class="overlay" style="background-color: #6c07f1">
+                                <div class="overlay-text">My team and I designed a customer portal prototype for a
+                                    prescription delivery platform, NimbleRx.</div>
+                            </div>
+                        </a>
                     </div>
-                </a>
+                </div>
+                <div class="col-sm-4" style="margin-left: -1.5rem; margin-top: 1.5rem;">
+                    <h4>The New York Times</h4>
+                    <h4>Society & Culture</h4>
+                    <h4>4.5/5</h4>
+                    <br> </br>
+                    <h4><small class="text-muted"> Added on 04/10/2023</small></h4>
+                </div>
             </div>
         </div>
-        <div class="d-flex flex-column justify-content-center align-items-left"
-            style="margin-left:5%;width: 50%; margin-right: 10%;">
-            <h1>NimbleRx</h1>
-            <h2 style="margin-bottom: -0.5rem;"> &#11088 &nbsp What did I learn &nbsp &#11088 </h2>
-            <h2>
-                <br>
-                I went through the full process of mocking up a solution to the startup's concept. 
-                I learned how to work collaboratively on a design project and apply the design principles
-                to real-world problems.
-            </h2>
-        </div>
 
-    </div>
-
-    <!-- flutter -->
-    <div class="d-flex justify-content-center align-items-center" style="margin-bottom: 5rem;">
-        <div class="card align-items-center justify-content-center" style="margin-left: 10%;width: 50%;">
-            <div class="card-body" style="background-color: #FFFFFF;">
-                <a href="./Flutter.html" style="color: #f67332;">
-                    <img src="./img/flutter.png" class="card-img-top" , alt="responsive design">
-                    <div class="overlay" style="background-color: #ebc8b9">
-                        <div class="overlay-text">I designed a mobile app that provides users cocktail recipes.</div>
+        <div class="card mb-3"
+            style="margin-left: 0%; margin-right: 10%;width: 25%; height: auto; border-color: black; border-radius: 0.15rem;">
+            <div class="row g-0">
+                <div class="col-sm-8">
+                    <div class="card-body" style="background-color: #FFFFFF;">
+                        <a href="./NimbleRx.html" style="color: #8952d7;">
+                            <img src="./img/3TheGrayArea.jpg" class="img-fluid rounded-start">
+                            <div class="overlay" style="background-color: #6c07f1">
+                                <div class="overlay-text">My team and I designed a customer portal prototype for a
+                                    prescription delivery platform, NimbleRx.</div>
+                            </div>
+                        </a>
                     </div>
-                </a>
+                </div>
+                <div class="col-sm-4" style="margin-left: -1.5rem; margin-top: 1.5rem;">
+                    <h4>The New York Times</h4>
+                    <h4>Society & Culture</h4>
+                    <h4>4.5/5</h4>
+                    <br> </br>
+                    <h4><small class="text-muted"> Added on 04/10/2023</small></h4>
+                </div>
             </div>
         </div>
-        <div class="d-flex flex-column justify-content-center align-items-left"
-            style="margin-left:5%; width: 50%; margin-right: 10%;">
-            <h1>Cocktail Recipe Finder</h1>
-            <h2 style="margin-bottom: -0.5rem;"> &#11088 &nbsp What did I learn &nbsp &#11088 </h2>
-            <h2>
-                <br>
-                This is my first mobile app using Flutter. I learned how to apply the concepts of declarative UI as well as reactive state and how to get data from API calls.
-            </h2>
-        </div>
     </div>
 
-    <!-- trader joes -->
+    <!-- 4 to 6 cards -->
     <div class="d-flex justify-content-center align-items-center" style="margin-bottom: 5rem;">
-        <div class="card align-items-center justify-content-center" style="margin-left: 10%; width: 50%;">
-            <div class="card-body" style="background-color: #FFFFFF;">
-                <a href="./Development.html" style="color: #eb4646;">
-                    <img src="./img/development.png" class="card-img-top" , alt="responsive design">
-                    <div class="overlay" style="background-color: #F0D1DC">
-                        <div class="overlay-text">This is a shopping website for Trader Joe's customers estimating the overall costs of their groceries.</div>
+
+        <div class="card mb-3"
+            style="margin-left: 10%; margin-right: 2.5%; width: 25%; height: auto; border-color: black; border-radius: 0.15rem;">
+            <div class="row g-0">
+                <div class="col-sm-8">
+                    <div class="card-body" style="background-color: #FFFFFF;">
+                        <a href="./NimbleRx.html" style="color: #8952d7;">
+                            <img src="./img/4TheReview.jpg" class="img-fluid rounded-start">
+                            <div class="overlay" style="background-color: #6c07f1">
+                                <div class="overlay-text">My team and I designed a customer portal prototype for a
+                                    prescription delivery platform, NimbleRx.</div>
+                            </div>
+                        </a>
                     </div>
-                </a>
+                </div>
+                <div class="col-sm-4" style="margin-left: -1.5rem; margin-top: 1.5rem;">
+                    <h4>The New York Times</h4>
+                    <h4>Society & Culture</h4>
+                    <h4>4.5/5</h4>
+                    <br> </br>
+                    <h4><small class="text-muted"> Added on 04/10/2023</small></h4>
+                </div>
             </div>
         </div>
-        <div class="d-flex flex-column justify-content-center align-items-left"
-            style="margin-left:5%; width: 50%; margin-right: 10%;">
-            <h1>Trader Joe's Holiday Picks with React</h1>
-            <h2 style="margin-bottom: -0.5rem;"> &#11088 &nbsp What did I learn &nbsp &#11088 </h2>
-            <h2>
-                <br>
-                I learned how to use JavaScript to develop a list-based interactive interface. With Material UI and React, I implemented filtering and sorting algorithms that require state variables to keep track of the changes made by the users.
-            </h2>
+
+        <div class="card mb-3"
+            style="margin-left: 0%; margin-right: 2.5%;width: 25%; height: auto; border-color: black; border-radius: 0.15rem;">
+            <div class="row g-0">
+                <div class="col-sm-8">
+                    <div class="card-body" style="background-color: #FFFFFF;">
+                        <a href="./NimbleRx.html" style="color: #8952d7;">
+                            <img src="./img/5FirstPerson.jpg" class="img-fluid rounded-start">
+                            <div class="overlay" style="background-color: #6c07f1">
+                                <div class="overlay-text">My team and I designed a customer portal prototype for a
+                                    prescription delivery platform, NimbleRx.</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-4" style="margin-left: -1.5rem; margin-top: 1.5rem;">
+                    <h4>The New York Times</h4>
+                    <h4>Society & Culture</h4>
+                    <h4>4.5/5</h4>
+                    <br> </br>
+                    <h4><small class="text-muted"> Added on 04/10/2023</small></h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="card mb-3"
+            style="margin-left: 0%; margin-right: 10%;width: 25%; height: auto; border-color: black; border-radius: 0.15rem;">
+            <div class="row g-0">
+                <div class="col-sm-8">
+                    <div class="card-body" style="background-color: #FFFFFF;">
+                        <a href="./NimbleRx.html" style="color: #8952d7;">
+                            <img src="./img/6TheBookReview.jpg" class="img-fluid rounded-start">
+                            <div class="overlay" style="background-color: #6c07f1">
+                                <div class="overlay-text">My team and I designed a customer portal prototype for a
+                                    prescription delivery platform, NimbleRx.</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-4" style="margin-left: -1.5rem; margin-top: 1.5rem;">
+                    <h4>The New York Times</h4>
+                    <h4>Society & Culture</h4>
+                    <h4>4.5/5</h4>
+                    <br> </br>
+                    <h4><small class="text-muted"> Added on 04/10/2023</small></h4>
+                </div>
+            </div>
         </div>
     </div>
 
-    <footer id="About">
-        <div class="headline">
-            <p class="title">Get in Touch</p>
-            <h4>(Temporarily unavailable for anonymity purpose)</h4>
-        </div>
-        <div class="social">
-            <a href="https://www.linkedin.com/">
-                <img class="icon" style="width:2%" src="img/linkedin.png">
-            </a>
-        </div>
-    </footer>
 </body>
 
 

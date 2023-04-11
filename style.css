@@ -1,6 +1,6 @@
 body {
 	/* font-family: "Dekko", cursive; */
-	background-image: linear-gradient(to bottom right,#FBF3E7, #D8EDD3, #DBF1F4, #E4DAF1, #F0D1DC,#FBF3E7);
+	background-image: #f7f4fb;
 }
 
 footer {
@@ -21,13 +21,17 @@ footer {
 }
 
 nav {
-	position: fixed;
-	box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
-	font-family: 'Kanit', sans-serif;
+	position: relative;
+	/* box-shadow: 0 2px 4px 0 rgba(0,0,0,.2); */
+	box-shadow: 0;
+	font-family: 'Iowan Old Style', sans-serif;
   }
-
+.card-text {
+	font: 'Iowan Old Style';
+	font-size: 0.5rem;
+}
 .card-body {
-	box-shadow: 0 5px 10px 0 rgba(0,0,0,.2);
+	/* box-shadow: 0 5px 10px 0 rgba(0,0,0,.2); */
 	
 }
 .overlay {
@@ -57,9 +61,10 @@ nav {
 	opacity: 0.95;
 }
 .border {
-	width: 50%;
-    height: 0.3rem;
+	width: 100%;
+    height: 0.1rem;
     background-color: black;
+	position: relative;
 }
 .title {
 		color: black;
@@ -91,9 +96,10 @@ h3{
 	font-family: 'Kanit', sans-serif;
 }
 h4 {
-	text-align: center;
-	font-size: 1rem;
-	font-family: 'Kanit', sans-serif;
+	text-align: left;
+	font-size: 0.8rem;
+	margin-bottom: 1.3rem;
+	font-family: 'Iowan Old Style', sans-serif;
 }
 
 .btn:focus,
